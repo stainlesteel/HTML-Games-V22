@@ -3,6 +3,8 @@
   [headers.values]
     Content-Security-Policy = "frame-ancestors *"
     X-Frame-Options = "ALLOWALL" #deprecated but best option
+
+[[headers]]
   for = "*.wasm"
   [headers.values]
     Content-Type = "application/wasm"
